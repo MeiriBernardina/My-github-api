@@ -15,6 +15,6 @@ function RepositoryItem({ name, linkToRepo, fullName }) {
  
     );
     
-}
+};
 
 export default RepositoryItem;

@@ -24,6 +24,7 @@ export const WrapperTab = styled(Tab)`
   z-index: 99999;
   background-color: "#fff";
   margin: 8px;
+
   &:focus {
     outline: none;
   }
@@ -38,6 +39,7 @@ export const WrapperTabPanel = styled(TabPanel)`
   border: 1px solid "#ccc";
   display: none;
   margin-top: -5px;
+  
   &.is-selected {
     display: block;
   }
