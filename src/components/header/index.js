@@ -14,14 +14,24 @@ const Header = () => {
   return (
     <header>
       <S.Wrapper>
-        <input
+        <form>
+          <div className="mb-3">
+
+            <h1>Pesquise um Usuário do GitHub:</h1>
+        <input 
           type="text"
+          className="form-control"
           placeholder="Digite o username para pesquisa..."
           onChange={(event) => setUsernameForSearch(event.target.value)}
         />
-        <button type="submit" onClick={submitGetUser}>
+          </div>
+          </form>
+        <button type="submit" onClick={submitGetUser} className="btn btn-primary">
           <span>Buscar</span>
         </button>
+   
+        
+        
       </S.Wrapper>
     </header>
   );
